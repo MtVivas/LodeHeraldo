@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lo de Heraldo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- SEO -->
+  <meta name="description" content="Cabañas rústicas y alojamiento rural en San Miguel del Monte. Naturaleza, paz y tradición en Lo de Heraldo.">
+  <meta name="keywords" content="Cabañas, alojamiento, campo, Monte, turismo rural, Buenos Aires, hospedaje, naturaleza">
+  <meta name="author" content="Lo de Heraldo">
+
+  <!-- Open Graph para redes sociales -->
+  <meta property="og:title" content="Lo de Heraldo - Cabañas en San Miguel del Monte">
+  <meta property="og:description" content="Alojamiento rural con estilo artesanal. Un descanso diferente.">
+  <meta property="og:image" content="https://tusitio.com/logo.webp">
+  <meta property="og:url" content="https://tusitio.com">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Schema.org SEO avanzado -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Lo de Heraldo",
+      "image": "https://tusitio.com/logo.webp",
+      "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Miguel del Monte",
+      "addressRegion": "Buenos Aires",
+      "addressCountry": "AR"
+      },
+      "telephone": "+54-2226-477408",
+      "url": "https://tusitio.com"
+  }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <img src="img/logo.png" alt="Lo de Heraldo Logo" class="logo" />
+    <button class="menu-btn" aria-label="Abrir menú">&#9776;</button>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="nosotros" class="box" data-aos="fade-up">
+      <h2>Bienvenidos a Lo de Heraldo</h2>
+      <p>Ubicado en un entorno tranquilo y natural, <strong>Lo de Heraldo</strong> es un complejo de departamentos diseñado para ofrecerte una estadía cómoda y relajada en <strong>San Miguel del Monte</strong>. A solo <strong>200 metros de la laguna</strong>, nuestro alojamiento es ideal para quienes buscan desconectar y disfrutar de un ambiente sereno, con todas las comodidades necesarias.</p>
+      <p>Contamos con <strong>dos departamentos independientes</strong>, cada uno con capacidad máxima para 4 personas, en un mismo predio con espacios exteriores compartidos.</p>
+      <h3>Comodidades de cada departamento:</h3>
+      <ul>
+        <li>Parrilla individual, para disfrutar de asados al aire libre.</li>
+        <li>TV por cable y WiFi, para mantenerte conectado y entretenido.</li>
+        <li>Aire acondicionado, para mayor confort en cualquier época del año.</li>
+        <li>Vajilla básica completa, para que prepares tus comidas sin preocupaciones.</li>
+        <li>Estacionamiento dentro del predio (descubierto).</li>
+      </ul>
+      <p><strong>Nota:</strong></p>
+      <ul>
+        <li>❌ No ofrecemos ropa blanca (sábanas y toallas).</li>
+        <li>❌ No aceptamos mascotas.</li>
+      </ul>
+      <p><strong>📍 Ubicación:</strong> Calle Los Álamos 173, Barrio Los Pinos, San Miguel del Monte.</p>
+      <p>Si buscás un espacio cómodo y bien ubicado para tu escapada, <strong>Lo de Heraldo</strong> es tu mejor opción. ¡Te esperamos!</p>
+    </section>
+
+    <section id="galeria" class="box" data-aos="fade-up">
+      <div class="carousel">
+        <button class="prev" aria-label="Imagen anterior">&#10094;</button>
+        <div class="slides">
+          <img src="img/img1.jpg" alt="Foto 1" loading="lazy" />
+          <img src="img/img2.jpg" alt="Foto 2" loading="lazy" />
+          <img src="img/img3.jpg" alt="Foto 3" loading="lazy" />
+          <img src="img/img4.jpg" alt="Foto 4" loading="lazy" />
+          <img src="img/img5.jpg" alt="Foto 5" loading="lazy" />
+          <img src="img/img6.jpg" alt="Foto 6" loading="lazy" />
+          <img src="img/img7.jpg" alt="Foto 7" loading="lazy" />
+          <img src="img/img8.jpg" alt="Foto 8" loading="lazy" />
+          <img src="img/img9.jpg" alt="Foto 9" loading="lazy" />
+          <img src="img/img10.jpg" alt="Foto 10" loading="lazy" />
+        </div>
+        <button class="next" aria-label="Imagen siguiente">&#10095;</button>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="box" data-aos="fade-up">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d304.36934950252294!2d-58.818407896103324!3d-35.44799191534306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDI2JzUyLjQiUyA1OMKwNDknMDUuNSJX!5e0!3m2!1ses!2sar!4v1743340336059!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" title="Ubicación Lo de Heraldo"></iframe>
+    </section>
+
+    <section id="contacto" class="box" data-aos="fade-up">
+      <form id="contact-form">
+        <input type="text" name="nombre" placeholder="Nombre" required />
+        <input type="email" name="correo" placeholder="Correo" required />
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+        <p id="form-status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Lo de Heraldo. Todos los derechos reservados.</p>
+    <div class="social">
+      <a href="https://wa.me/5492226477408?text=Hola%20Lo%20de%20Heraldo!%20Quisiera%20hacer%20una%20consulta" target="_blank" aria-label="WhatsApp">
+        <img src="img/logowsp.png" alt="WhatsApp" style="height: 32px;" />
+      </a>
+      <a href="https://www.instagram.com/lodeheraldo/following/" target="_blank" aria-label="Instagram">
+        <img src="img/logoinsta.png" alt="Instagram" style="height: 32px;" />
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61575877881437&locale=es_LA" target="_blank" aria-label="Facebook">
+        <img src="img/logoface.png" alt="Facebook" style="height: 32px;" />
+      </a>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5492226477408?text=Hola%20Lo%20de%20Heraldo!%20Quisiera%20hacer%20una%20consulta" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+    <img src="img/logowsp2.svg" alt="WhatsApp Chat" />
+  </a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    const toggle = document.createElement('button');
+    toggle.className = 'toggle-mode';
+    toggle.innerHTML = localStorage.getItem('mode') === 'dark' ? '☀️' : '🌙';
+    toggle.onclick = () => {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('mode', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+      toggle.innerHTML = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    };
+    document.addEventListener('DOMContentLoaded', () => {
+      if (localStorage.getItem('mode') === 'dark') {
+        document.body.classList.add('dark-mode');
+      }
+      document.querySelector('.header').appendChild(toggle);
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
